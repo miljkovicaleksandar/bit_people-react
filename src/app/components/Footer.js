@@ -2,7 +2,7 @@ import React from 'react';
 class Footer extends React.Component {
     render() {
         return (
-            <footer className="page-footer">
+            <footer className="page-footer sticky">
 
                 <div className="footer-copyright">
                     <div className="container">

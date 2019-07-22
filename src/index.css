@@ -47,6 +47,13 @@ code {
 .right{
   cursor: pointer;
 }
+.sticky{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+text-align: center;
+}
 
 .female-color{
   background-color: pink;
