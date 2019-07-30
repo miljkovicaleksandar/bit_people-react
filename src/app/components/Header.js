@@ -8,7 +8,7 @@ class Header extends React.Component {
         const { useListLayout, onSwitchClick, refresh, onAboutClick } = this.props
         return (
             <nav>
-                <div className="nav-wrapper">
+                <div className="nav-wrapper teal lighten-2">
                     <Link to="/" className="brand-logo center">React Users</Link>
 
                     {useListLayout ? <i onClick={onSwitchClick} className="fas fa-th-large right"></i> :
