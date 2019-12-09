@@ -3,7 +3,7 @@ import User from './User';
 import UserCard from './UserCard';
 import Search from './Search';
 import Loader from './Loader'
-import { Switch, Route } from 'react-router-dom';
+
 
 
 
