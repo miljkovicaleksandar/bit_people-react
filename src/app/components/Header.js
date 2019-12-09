@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 class Header extends React.Component {
 
     render() {
-        const { useListLayout, onSwitchClick, refresh, onAboutClick } = this.props
+        const { useListLayout, onSwitchClick, refresh } = this.props
         return (
             <nav>
                 <div className="nav-wrapper teal lighten-2">
